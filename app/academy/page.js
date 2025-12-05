@@ -1,127 +1,96 @@
 export default function AcademyPage() {
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-50 to-indigo-50 py-20">
-        <div className="container mx-auto px-6 text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            Enabled Academy
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Accelerate your tech career with hands-on training, mentorship, and industry-recognized certifications.
-          </p>
-          <div className="mt-10">
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 mr-4">
-              Browse Courses
-            </button>
-            <button className="bg-white text-blue-600 border border-blue-600 px-8 py-3 rounded-lg text-lg font-medium hover:bg-blue-50">
-              Meet Our Instructors
-            </button>
-          </div>
-        </div>
-      </section>
-
-      {/* Courses Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Popular Courses</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Course 1 */}
-            <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <span className="text-blue-600 font-bold">FE</span>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Frontend Development</h3>
-              <p className="text-gray-600 mb-4">
-                Master React, Next.js, and modern UI/UX principles. Build responsive web applications.
-              </p>
-              <div className="flex justify-between items-center">
-                <span className="text-blue-600 font-bold">8 Weeks</span>
-                <button className="text-blue-600 hover:text-blue-800 font-medium">
-                  Learn More →
-                </button>
-              </div>
-            </div>
-
-            {/* Course 2 */}
-            <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                <span className="text-green-600 font-bold">BE</span>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Backend Development</h3>
-              <p className="text-gray-600 mb-4">
-                Learn Node.js, databases, APIs, and server architecture. Create scalable backend systems.
-              </p>
-              <div className="flex justify-between items-center">
-                <span className="text-blue-600 font-bold">10 Weeks</span>
-                <button className="text-blue-600 hover:text-blue-800 font-medium">
-                  Learn More →
-                </button>
-              </div>
-            </div>
-
-            {/* Course 3 */}
-            <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                <span className="text-purple-600 font-bold">FS</span>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Full-Stack Bootcamp</h3>
-              <p className="text-gray-600 mb-4">
-                Comprehensive training covering both frontend and backend technologies for complete web development.
-              </p>
-              <div className="flex justify-between items-center">
-                <span className="text-blue-600 font-bold">16 Weeks</span>
-                <button className="text-blue-600 hover:text-blue-800 font-medium">
-                  Learn More →
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="bg-gray-900 text-white py-16">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
-              <div className="text-5xl font-bold mb-2">2,500+</div>
-              <div className="text-gray-400">Students Trained</div>
-            </div>
-            <div>
-              <div className="text-5xl font-bold mb-2">98%</div>
-              <div className="text-gray-400">Employment Rate</div>
-            </div>
-            <div>
-              <div className="text-5xl font-bold mb-2">50+</div>
-              <div className="text-gray-400">Industry Partners</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Career?</h2>
-          <p className="text-gray-600 text-lg mb-10 max-w-2xl mx-auto">
-            Join thousands who have accelerated their tech careers with Enabled Academy.
-          </p>
-          <div className="max-w-md mx-auto bg-white p-8 rounded-xl shadow-lg">
-            <input 
-              type="email" 
-              placeholder="Enter your email" 
-              className="w-full p-3 border border-gray-300 rounded-lg mb-4"
+    <div className="min-h-screen bg-[#f5efe3]">
+      {/* Hero Section - Matches Figma design */}
+      <section className="relative min-h-[90vh] flex flex-col lg:flex-row">
+        {/* Left side - Image */}
+        <div className="lg:w-1/2 bg-gradient-to-br from-blue-50 to-white p-8 lg:p-20 flex items-center justify-center">
+          <div className="max-w-md">
+            {/* Image from public/images folder */}
+            <img 
+              src="/images/hero.png" 
+              alt="Enabled Academy students learning and collaborating" 
+              className="rounded-2xl shadow-lg w-full h-auto"
             />
-            <button className="w-full bg-blue-600 text-white p-3 rounded-lg font-medium hover:bg-blue-700">
-              Get Started Free
+          </div>
+        </div>
+
+        {/* Right side - Content */}
+        <div className="lg:w-1/2 p-8 lg:p-20 flex flex-col justify-center">
+          {/* Tag */}
+          <div className="mb-6">
+            <span className="inline-block px-4 py-1 bg-white text-gray-700 rounded-full text-sm font-semibold border border-gray-200">
+              ENABLED ACADEMY
+            </span>
+          </div>
+
+          {/* Main Heading */}
+          <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+            Learn. Train. Grow.
+            <br />
+            <span className="text-blue-900">Get Ready for Opportunity.</span>
+          </h1>
+
+          {/* Description */}
+          <p className="text-xl text-gray-700 mb-10 max-w-2xl">
+            Enabled Academy is a training and job-readiness program that helps people build real skills while supporting employers with qualified, prepared, and confident talent.
+            <br /><br />
+            Whether you're an individual looking to grow your career — or an employer looking for trained talent — Enabled Academy is here to support your journey.
+          </p>
+
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4">
+            <button className="px-8 py-4 bg-[#1a2b44] text-white font-semibold rounded-full hover:bg-blue-900 transition-colors flex items-center justify-center">
+              For Talents
+              <span className="ml-2">→</span>
             </button>
-            <p className="text-gray-500 text-sm mt-4">
-              No credit card required. Start with our free introductory course.
-            </p>
+            <button className="px-8 py-4 bg-yellow-100 border-2 border-[#1a2b44] text-[#1a2b44] font-semibold rounded-full hover:bg-yellow-200 transition-colors flex items-center justify-center relative">
+              For Employers
+              <span className="ml-2">→</span>
+              {/* Extra yellow tint */}
+              <div className="absolute inset-0 bg-yellow-300 opacity-20 rounded-full"></div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Additional Content Sections (Add below as needed) */}
+      <section className="py-20 px-6">
+        <div className="container mx-auto max-w-6xl">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
+            How Enabled Academy Works
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Step 1 */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <div className="text-3xl font-bold text-blue-600 mb-4">01</div>
+              <h3 className="text-xl font-bold mb-3">Skill Assessment</h3>
+              <p className="text-gray-600">
+                We evaluate your current skills and career goals to create a personalized learning path.
+              </p>
+            </div>
+
+            {/* Step 2 */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <div className="text-3xl font-bold text-blue-600 mb-4">02</div>
+              <h3 className="text-xl font-bold mb-3">Hands-On Training</h3>
+              <p className="text-gray-600">
+                Learn through real-world projects, mentorship, and industry-relevant curriculum.
+              </p>
+            </div>
+
+            {/* Step 3 */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <div className="text-3xl font-bold text-blue-600 mb-4">03</div>
+              <h3 className="text-xl font-bold mb-3">Job Placement</h3>
+              <p className="text-gray-600">
+                Connect with employer partners and start your career with confidence.
+              </p>
+            </div>
           </div>
         </div>
       </section>
     </div>
-  )
+  );
 }
