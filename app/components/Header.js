@@ -4,26 +4,33 @@ export default function Header() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo/Image on left */}
-          <div className="flex items-center space-x-2">
-            {/* Logo image placeholder - replace with actual logo */}
-            <div className="w-40">
-              <div className="text-2xl font-bold text-gray-900">EnabledTalent</div>
-            </div>
+          <div className="flex items-center">
+            <img 
+              src="/images/logo.png" 
+              alt="EnabledTalent Logo"
+              className="h-10 w-auto"
+            />
           </div>
 
-          {/* Centered Navigation */}
+          {/* Centered Navigation - Removed blue from "Enabled Academy" */}
           <nav className="hidden lg:flex items-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
             <a href="/talent" className="text-gray-700 hover:text-blue-600 font-medium">For Talents</a>
-            <a href="/academy" className="text-blue-600 font-bold">Enabled Academy</a>
+            <a href="/academy" className="text-gray-700 hover:text-blue-600 font-medium">Enabled Academy</a> {/* Changed from text-blue-600 */}
             <a href="/programs" className="text-gray-700 hover:text-blue-600 font-medium">Programs & Awards</a>
             <a href="/employers" className="text-gray-700 hover:text-blue-600 font-medium">For Employers</a>
             <a href="/events" className="text-gray-700 hover:text-blue-600 font-medium">Events</a>
           </nav>
 
-          {/* Right side items */}
+          {/* Right side items - Added earth/global icon */}
           <div className="hidden lg:flex items-center space-x-6">
-            {/* Global with dropdown arrow */}
-            <div className="flex items-center space-x-1 text-gray-700">
+            {/* Global with earth icon and dropdown arrow */}
+            <div className="flex items-center space-x-2 text-gray-700">
+              {/* Earth/Global icon */}
+              <img 
+                src="/images/global.png" 
+                alt="Global"
+                className="h-5 w-5"
+              />
               <span>Global</span>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
