@@ -5,12 +5,11 @@ export default function AcademyPage() {
       <section className="relative min-h-[90vh] flex flex-col lg:flex-row">
         {/* Left side - Image */}
         <div className="lg:w-1/2 bg-gradient-to-br from-blue-50 to-white p-8 lg:p-20 flex items-center justify-center">
-          <div className="max-w-md">
-            {/* Image from public/images folder */}
+          <div className="max-w-full w-full">
             <img 
-              src="/images/hero.png" 
+              src="/images/ssp1.png" 
               alt="Enabled Academy students learning and collaborating" 
-              className="rounded-2xl shadow-lg w-full h-auto"
+              className="rounded-2xl shadow-lg w-full h-auto max-h-[80vh] object-contain"
             />
           </div>
         </div>
