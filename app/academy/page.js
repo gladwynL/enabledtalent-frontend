@@ -217,6 +217,141 @@ export default function AcademyPage() {
       </section>
       {/* ========== END FOR TALENT SECTION ========== */}
 
+      {/* ========== WHO WE SUPPORT SECTION ========== */}
+      <section className="py-20 px-6">
+        <div className="flex justify-center items-center">
+          <div className="bg-[#0f1a2e] rounded-[40px] p-8 md:p-12 lg:p-16 max-w-6xl w-full text-center text-white">
+            {/* Tag */}
+            <div className="mb-6">
+              <span className="inline-block px-5 py-2 bg-white/10 text-white rounded-full text-sm font-semibold">
+                WHO WE SUPPORT
+              </span>
+            </div>
+
+            {/* Title */}
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+            <span className="text-white">Who </span>
+            <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">This Is For</span>
+            </h2>
+
+            {/* Description */}
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+              Anyone looking to improve skills, start a career, restart a career, or grow into new opportunities — including students, newcomers, career-changers, and people facing barriers.
+            </p>
+
+            {/* Button */}
+            <a 
+              href="/join"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#f3a641] text-black font-semibold rounded-full hover:bg-[#ffb65c] transition-colors mx-auto mb-12"
+            >
+              Join Enabled Academy
+              <span className="w-6 h-6 bg-black rounded-full flex items-center justify-center">
+                <span className="text-white text-sm">→</span>
+              </span>
+            </a>
+
+                        {/* Stats Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+              {/* Stat Card 1 */}
+              <div className="bg-[#132038] p-6 rounded-2xl">
+                <div className="flex items-end gap-3 mb-3">
+                  <div className="text-left">
+                    <div className="text-gray-300 text-xs">2019</div>
+                    <div className="text-gray-300 text-sm font-semibold">10%</div>
+                  </div>
+                  <div className="flex items-end gap-1 flex-1">
+                    <div className="w-4 h-8 bg-[#9aa3b5] rounded-t"></div>
+                    <div className="w-4 h-12 bg-gradient-to-b from-orange-500 to-yellow-500 rounded-t"></div>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-[#f3a641] text-xs">2025</div>
+                    <div className="text-[#f3a641] text-sm font-semibold">18%</div>
+                  </div>
+                </div>
+                <p className="text-white text-sm font-medium text-center">Information Systems<br />Audit Process</p>
+              </div>
+
+              {/* Stat Card 2 */}
+              <div className="bg-[#132038] p-6 rounded-2xl">
+                <div className="flex items-end gap-3 mb-3">
+                  <div className="text-left">
+                    <div className="text-gray-300 text-xs">2019</div>
+                    <div className="text-gray-300 text-sm font-semibold">10%</div>
+                  </div>
+                  <div className="flex items-end gap-1 flex-1">
+                    <div className="w-4 h-8 bg-[#9aa3b5] rounded-t"></div>
+                    <div className="w-4 h-12 bg-gradient-to-b from-orange-500 to-yellow-500 rounded-t"></div>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-[#f3a641] text-xs">2025</div>
+                    <div className="text-[#f3a641] text-sm font-semibold">18%</div>
+                  </div>
+                </div>
+                <p className="text-white text-sm font-medium text-center">Information Systems<br />Audit Process</p>
+              </div>
+
+              {/* Stat Card 3 */}
+              <div className="bg-[#132038] p-6 rounded-2xl">
+                <div className="flex items-end gap-3 mb-3">
+                  <div className="text-left">
+                    <div className="text-gray-300 text-xs">2019</div>
+                    <div className="text-gray-300 text-sm font-semibold">10%</div>
+                  </div>
+                  <div className="flex items-end gap-1 flex-1">
+                    <div className="w-4 h-8 bg-[#9aa3b5] rounded-t"></div>
+                    <div className="w-4 h-12 bg-gradient-to-b from-orange-500 to-yellow-500 rounded-t"></div>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-[#f3a641] text-xs">2025</div>
+                    <div className="text-[#f3a641] text-sm font-semibold">18%</div>
+                  </div>
+                </div>
+                <p className="text-white text-sm font-medium text-center">Information Systems<br />Audit Process</p>
+              </div>
+
+              {/* Stat Card 4 */}
+              <div className="bg-[#132038] p-6 rounded-2xl">
+                <div className="flex items-end gap-3 mb-3">
+                  <div className="text-left">
+                    <div className="text-gray-300 text-xs">2019</div>
+                    <div className="text-gray-300 text-sm font-semibold">10%</div>
+                  </div>
+                  <div className="flex items-end gap-1 flex-1">
+                    <div className="w-4 h-8 bg-[#9aa3b5] rounded-t"></div>
+                    <div className="w-4 h-12 bg-gradient-to-b from-orange-500 to-yellow-500 rounded-t"></div>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-[#f3a641] text-xs">2025</div>
+                    <div className="text-[#f3a641] text-sm font-semibold">18%</div>
+                  </div>
+                </div>
+                <p className="text-white text-sm font-medium text-center">Information Systems<br />Audit Process</p>
+              </div>
+
+              {/* Stat Card 5 */}
+              <div className="bg-[#132038] p-6 rounded-2xl">
+                <div className="flex items-end gap-3 mb-3">
+                  <div className="text-left">
+                    <div className="text-gray-300 text-xs">2019</div>
+                    <div className="text-gray-300 text-sm font-semibold">10%</div>
+                  </div>
+                  <div className="flex items-end gap-1 flex-1">
+                    <div className="w-4 h-8 bg-[#9aa3b5] rounded-t"></div>
+                    <div className="w-4 h-12 bg-gradient-to-b from-orange-500 to-yellow-500 rounded-t"></div>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-[#f3a641] text-xs">2025</div>
+                    <div className="text-[#f3a641] text-sm font-semibold">18%</div>
+                  </div>
+                </div>
+                <p className="text-white text-sm font-medium text-center">Information Systems<br />Audit Process</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ========== END WHO WE SUPPORT SECTION ========== */}
+
       {/* Additional Content Sections (Add below as needed) */}
       <section className="py-20 px-6">
         <div className="container mx-auto max-w-6xl">
