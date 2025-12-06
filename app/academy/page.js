@@ -54,6 +54,56 @@ export default function AcademyPage() {
         </div>
       </section>
 
+      {/* ========== WHO WE ARE SECTION ========== */}
+      <section className="py-20 px-6 bg-white">
+        <div className="container mx-auto max-w-6xl">
+          <div className="flex flex-col lg:flex-row gap-12 items-start">
+            {/* Left Column - Content */}
+            <div className="lg:w-1/2">
+              {/* Section Title */}
+              <div className="mb-8">
+                <span className="inline-block px-4 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-semibold border border-gray-200">
+                  WHO WE ARE
+                </span>
+              </div>
+
+              {/* Main Heading */}
+              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                What Is<br />
+                <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
+                  Enabled Academy?
+                </span>
+              </h2>
+
+              {/* Description Text */}
+              <div className="space-y-6 text-gray-700 text-lg">
+                <p>
+                  Enabled Academy is a skill-building and readiness hub that improves access to meaningful jobs.
+                </p>
+                <p>
+                  We train individuals across different career paths, help them gain confidence, and connect them with employers who need job-ready talent.
+                </p>
+                <p>
+                  We work closely with employers to understand their staffing needs and train candidates with the exact skills required for the role — from customer care to office support to IT and engineering.
+                </p>
+              </div>
+            </div>
+
+            {/* Right Column - Image container */}
+            <div className="lg:w-1/2 flex items-center mt-12">
+              <div className="w-full max-w-[600px] mx-auto rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="/images/ssp2.png" 
+                  alt="Progress visualization showing 75% projects completed and Kevin Ross: 60th accounts in Thailand"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ========== END WHO WE ARE SECTION ========== */}
+
       {/* Additional Content Sections (Add below as needed) */}
       <section className="py-20 px-6">
         <div className="container mx-auto max-w-6xl">
