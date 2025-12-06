@@ -104,6 +104,119 @@ export default function AcademyPage() {
       </section>
       {/* ========== END WHO WE ARE SECTION ========== */}
 
+      {/* ========== FOR TALENT SECTION ========== */}
+      <section className="py-20 px-6 bg-[#f5efe3]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="flex flex-col lg:flex-row gap-12 items-center">
+            {/* Left Column - Image */}
+            <div className="lg:w-1/2">
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="/images/ssp3.png" 
+                  alt="Woman participating in Enabled Academy program"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
+            {/* Right Column - Content */}
+            <div className="lg:w-1/2">
+              {/* Section Title */}
+              <div className="mb-6">
+                <span className="inline-block px-4 py-1 bg-white text-gray-700 rounded-full text-sm font-semibold border border-gray-200">
+                  FOR TALENT
+                </span>
+              </div>
+
+              {/* Main Heading */}
+              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
+                  What Is Enabled Academy?
+                </span><br />
+                <span className="text-black">
+                  Become Job-Ready.
+                </span>
+              </h2>
+
+              {/* Description */}
+              <p className="text-lg text-gray-700 mb-8">
+                Enabled Academy helps you learn practical skills, prepare for interviews, and become confident in your career journey. Our programs are designed for all skill levels and support a wide range of career interests.
+              </p>
+
+              {/* What You'll Receive */}
+              <div className="mb-8">
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">What You'll Receive</h3>
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-4 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 text-lg">Role-based training for different industries</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-4 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 text-lg">One-on-one coaching and interview preparation</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-4 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 text-lg">Resume and profile guidance</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-4 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 text-lg">Communication and workplace readiness training</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-4 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 text-lg">Accessibility support and learning accommodations</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-4 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 text-lg">Direct connections to employer partners</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-4 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 text-lg">A supportive learning environment focused on your success</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Button */}
+              <button className="px-8 py-4 bg-[#1a2b44] text-white font-semibold rounded-full hover:bg-blue-900 transition-colors flex items-center justify-center w-full sm:w-auto">
+                Join Enabled Academy
+                <span className="ml-2">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ========== END FOR TALENT SECTION ========== */}
+
       {/* Additional Content Sections (Add below as needed) */}
       <section className="py-20 px-6">
         <div className="container mx-auto max-w-6xl">
