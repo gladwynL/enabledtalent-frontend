@@ -250,7 +250,7 @@ export default function AcademyPage() {
               </span>
             </a>
 
-                        {/* Stats Grid */}
+            {/* Stats Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
               {/* Stat Card 1 */}
               <div className="bg-[#132038] p-6 rounded-2xl">
@@ -351,6 +351,137 @@ export default function AcademyPage() {
         </div>
       </section>
       {/* ========== END WHO WE SUPPORT SECTION ========== */}
+
+
+      {/* ========== FOR EMPLOYERS SECTION ========== */}
+      <section className="py-20 px-6 bg-white">
+        <div className="container mx-auto max-w-6xl">
+          <div className="flex flex-col lg:flex-row gap-12 items-center">
+            {/* Left Column - Image with stats */}
+            <div className="lg:w-1/2">
+              <div className="relative">
+                <div className="rounded-2xl overflow-hidden shadow-lg">
+                  <img 
+                    src="/images/ssp4.png" 
+                    alt="Employer and employee discussing opportunities"
+                    className="w-full h-auto"
+                  />
+                </div>
+                {/* Stats overlay on image */}
+                <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-lg p-6 max-w-[280px]">
+                  <div className="flex justify-between items-center mb-4">
+                    <div>
+                      <div className="text-2xl font-bold text-gray-900">84%</div>
+                      <div className="text-gray-600 text-sm">Revenue</div>
+                    </div>
+                    <div className="h-10 w-px bg-gray-300"></div>
+                    <div>
+                      <div className="text-2xl font-bold text-gray-900">Profit</div>
+                      <div className="text-gray-600 text-sm">Growth</div>
+                    </div>
+                  </div>
+                  <div className="border-t pt-4">
+                    <div className="text-gray-600 text-sm mb-1">Statistics</div>
+                    <div className="text-2xl font-bold text-gray-900">$56,890.11</div>
+                    <div className="text-green-600 text-sm font-medium">12.6% up from last month</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column - Content */}
+            <div className="lg:w-1/2">
+              {/* Section Title */}
+              <div className="mb-6">
+                <span className="inline-block px-4 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-semibold border border-gray-200">
+                  FOR EMPLOYERS
+                </span>
+              </div>
+
+              {/* Main Heading */}
+              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+                <span className="text-black">Your Workforce</span><br />
+                <span className="text-black">Training &</span><br />
+                <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
+                  Talent Partner
+                </span>
+              </h2>
+
+              {/* Description */}
+              <div className="space-y-4 mb-8">
+                <p className="text-gray-700">
+                  Enabled Academy helps employers build a stronger and more prepared workforce by training candidates based on real job requirements.
+                </p>
+                <p className="text-gray-700">
+                  We support you with a flexible, inclusive, and job-ready talent pipeline.
+                </p>
+              </div>
+
+              {/* Book a Call Now Button */}
+              <button className="px-8 py-3 bg-[#1a2b44] text-white font-semibold rounded-full hover:bg-blue-900 transition-colors flex items-center justify-center mb-10 w-full sm:w-auto">
+                Book a Call Now
+                <span className="ml-2">→</span>
+              </button>
+
+              {/* How We Support Employers */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">How We Support Employers</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-3 mt-0.5">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700">We train them specifically for your roles</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-3 mt-0.5">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700">We source and identify potential candidates</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-3 mt-0.5">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700">We provide one-on-one coaching and readiness support</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-3 mt-0.5">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700">We support inclusive hiring practices across all departments</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-3 mt-0.5">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700">We reduce onboarding challenges and help improve retention</span>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center mr-3 mt-0.5">
+                      <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                    </div>
+                    <span className="text-gray-700">We prepare candidates to fully understand your workflows, tools, and processes</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ========== END FOR EMPLOYERS SECTION ========== */}
 
       {/* Additional Content Sections (Add below as needed) */}
       <section className="py-20 px-6">
