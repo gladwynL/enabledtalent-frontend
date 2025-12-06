@@ -483,6 +483,120 @@ export default function AcademyPage() {
       </section>
       {/* ========== END FOR EMPLOYERS SECTION ========== */}
 
+            {/* ========== WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
+      <section className="py-20 px-6 bg-[#f5efe3]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+              <span className="text-black">We Support </span>
+              <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
+                All Types of Roles
+              </span>
+            </h2>
+          </div>
+
+          {/* Row 1 - 4 items */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            <div className="flex items-center justify-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-3 border border-gray-100 shadow-sm">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 flex items-center justify-center mr-3">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium text-center text-sm">Customer Service & Call Centre</span>
+            </div>
+            <div className="flex items-center justify-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-3 border border-gray-100 shadow-sm">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center mr-3">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium text-center text-sm">HR & Recruitment</span>
+            </div>
+            <div className="flex items-center justify-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-3 border border-gray-100 shadow-sm">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 flex items-center justify-center mr-3">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium text-center text-sm">Administrative & Office Support</span>
+            </div>
+            <div className="flex items-center justify-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-3 border border-gray-100 shadow-sm">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center mr-3">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium text-center text-sm">Operations & Logistics</span>
+            </div>
+          </div>
+
+          {/* Row 2 - 4 items */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            <div className="flex items-center justify-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-3 border border-gray-100 shadow-sm">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center mr-3">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium text-center text-sm">Data & Digital Roles</span>
+            </div>
+            <div className="flex items-center justify-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-3 border border-gray-100 shadow-sm">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 flex items-center justify-center mr-3">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium text-center text-sm">Sales & Retail</span>
+            </div>
+            <div className="flex items-center justify-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-3 border border-gray-100 shadow-sm">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center mr-3">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium text-center text-sm">Business Analyst & Project Coordinator</span>
+            </div>
+            <div className="flex items-center justify-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-3 border border-gray-100 shadow-sm">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 flex items-center justify-center mr-3">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium text-center text-sm">Marketing & Social Media</span>
+            </div>
+          </div>
+
+          {/* Row 3 - 2 items */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+            <div className="flex items-center justify-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-3 border border-gray-100 shadow-sm lg:col-start-2">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 flex items-center justify-center mr-3">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium text-center text-sm">Software & Technical Roles</span>
+            </div>
+            <div className="flex items-center justify-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-3 border border-gray-100 shadow-sm">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center mr-3">
+                <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium text-center text-sm">IT Support</span>
+            </div>
+          </div>
+
+          {/* Orange gradient note */}
+          <div className="text-center">
+            <p className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent text-xl font-medium">
+              ... and more — we customize based on your staffing needs.
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* ========== END WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
+
       {/* Additional Content Sections (Add below as needed) */}
       <section className="py-20 px-6">
         <div className="container mx-auto max-w-6xl">
