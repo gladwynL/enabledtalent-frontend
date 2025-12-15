@@ -577,7 +577,7 @@ export default function AcademyPage() {
       </section>
       {/* ========== END WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
 
-           {/* ========== HOW ENABLED ACADEMY WORKS SECTION ========== */}
+      {/* ========== HOW ENABLED ACADEMY WORKS SECTION ========== */}
       <section className="py-20 px-6 bg-white">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
@@ -600,7 +600,31 @@ export default function AcademyPage() {
           {/* Combined vertical line container */}
           <div className="relative">
             {/* Continuous vertical line running through all sections */}
-            <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-orange-500 via-orange-400 to-yellow-500 transform -translate-x-1/2 hidden lg:block"></div>
+            <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-orange-500 via-orange-400 to-yellow-500 transform -translate-x-1/2 hidden lg:block">
+              {/* Circles that cut into the line */}
+              <div className="relative h-full">
+                {/* Circle 1 - positioned with top padding */}
+                <div className="absolute left-1/2 top-1/4 transform -translate-x-1/2 -translate-y-1/2">
+                  <div className="w-8 h-8 rounded-full border-4 border-orange-500 bg-white flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-white"></div>
+                  </div>
+                </div>
+                
+                {/* Circle 2 - positioned in middle */}
+                <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                  <div className="w-8 h-8 rounded-full border-4 border-orange-500 bg-white flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-white"></div>
+                  </div>
+                </div>
+                
+                {/* Circle 3 - positioned near bottom */}
+                <div className="absolute left-1/2 top-3/4 transform -translate-x-1/2 -translate-y-1/2">
+                  <div className="w-8 h-8 rounded-full border-4 border-orange-500 bg-white flex items-center justify-center">
+                    <div className="w-4 h-4 rounded-full bg-white"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             {/* Section 1: Understand the Need */}
             <div className="flex flex-col lg:flex-row items-start gap-12 mb-24">
@@ -617,13 +641,8 @@ export default function AcademyPage() {
 
               {/* Right Column - Content */}
               <div className="lg:w-1/2 relative">
-                {/* Circle on the vertical line */}
-                <div className="absolute left-1/2 top-1/4 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center z-10">
-                  <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white"></div>
-                </div>
-
-                {/* Step Content */}
-                <div className="lg:pl-12">
+                {/* Step Content - aligned with circle 1 */}
+                <div className="lg:pl-12 pt-24">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Understand the Need</h3>
                   
                   <div className="space-y-0">
@@ -635,17 +654,12 @@ export default function AcademyPage() {
               </div>
             </div>
 
-                        {/* Section 2: Train, Coach & Prepare */}
+            {/* Section 2: Train, Coach & Prepare */}
             <div className="flex flex-col lg:flex-row items-start gap-12 mb-24">
               {/* Left Column - Content */}
               <div className="lg:w-1/2 relative order-2 lg:order-1">
-                {/* Circle on the vertical line */}
-                <div className="absolute right-1/2 top-1/4 transform translate-x-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center z-10 lg:right-auto lg:left-1/2">
-                  <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white"></div>
-                </div>
-
-                {/* Step Content */}
-                <div className="lg:pr-12 lg:text-right">
+                {/* Step Content - aligned with circle 2 */}
+                <div className="lg:pr-12 lg:text-right pt-24">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Train, Coach & Prepare</h3>
                   
                   <div className="space-y-4 text-gray-700">
@@ -684,13 +698,8 @@ export default function AcademyPage() {
 
               {/* Right Column - Content */}
               <div className="lg:w-1/2 relative">
-                {/* Circle on the vertical line */}
-                <div className="absolute left-1/2 top-1/4 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center z-10">
-                  <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white"></div>
-                </div>
-
-                {/* Step Content */}
-                <div className="lg:pl-12">
+                {/* Step Content - aligned with circle 3 */}
+                <div className="lg:pl-12 pt-24">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Match & Hire</h3>
                   
                   <div className="space-y-4 text-gray-700">
@@ -704,7 +713,7 @@ export default function AcademyPage() {
           </div>
         </div>
       </section>
-      {/* ========== END HOW ENABLED ACADEMY WORKS SECTION ========== */}
+      {/* ========== END OF HOW ENABLED ACADEMY WORKS SECTION ========== */}
 
       {/* Additional Content Sections (Add below as needed) */}
       <section className="py-20 px-6">
