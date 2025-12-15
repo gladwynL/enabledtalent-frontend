@@ -366,25 +366,6 @@ export default function AcademyPage() {
                     className="w-full h-auto"
                   />
                 </div>
-                {/* Stats overlay on image */}
-                <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-lg p-6 max-w-[280px]">
-                  <div className="flex justify-between items-center mb-4">
-                    <div>
-                      <div className="text-2xl font-bold text-gray-900">84%</div>
-                      <div className="text-gray-600 text-sm">Revenue</div>
-                    </div>
-                    <div className="h-10 w-px bg-gray-300"></div>
-                    <div>
-                      <div className="text-2xl font-bold text-gray-900">Profit</div>
-                      <div className="text-gray-600 text-sm">Growth</div>
-                    </div>
-                  </div>
-                  <div className="border-t pt-4">
-                    <div className="text-gray-600 text-sm mb-1">Statistics</div>
-                    <div className="text-2xl font-bold text-gray-900">$56,890.11</div>
-                    <div className="text-green-600 text-sm font-medium">12.6% up from last month</div>
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -482,7 +463,7 @@ export default function AcademyPage() {
       </section>
       {/* ========== END FOR EMPLOYERS SECTION ========== */}
 
-            {/* ========== WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
+      {/* ========== WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
       <section className="py-20 px-6 bg-[#f5efe3]">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
@@ -595,6 +576,135 @@ export default function AcademyPage() {
         </div>
       </section>
       {/* ========== END WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
+
+           {/* ========== HOW ENABLED ACADEMY WORKS SECTION ========== */}
+      <section className="py-20 px-6 bg-white">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            {/* Section Title */}
+            <div className="mb-6">
+              <span className="inline-block px-4 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-semibold border border-gray-200">
+                HOW ENABLED ACADEMY WORKS
+              </span>
+            </div>
+
+            {/* Main Heading */}
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-12 leading-tight">
+              A Simple, Clear Process that Supports<br />
+              <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
+                Both Talents and Employers.
+              </span>
+            </h2>
+          </div>
+
+          {/* Combined vertical line container */}
+          <div className="relative">
+            {/* Continuous vertical line running through all sections */}
+            <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-orange-500 via-orange-400 to-yellow-500 transform -translate-x-1/2 hidden lg:block"></div>
+
+            {/* Section 1: Understand the Need */}
+            <div className="flex flex-col lg:flex-row items-start gap-12 mb-24">
+              {/* Left Column - Image */}
+              <div className="lg:w-1/2">
+                <div className="rounded-2xl overflow-hidden shadow-lg">
+                  <img 
+                    src="/images/ssp5p1.png" 
+                    alt="Enabled Academy process visualization"
+                    className="w-full h-auto"
+                  />
+                </div>
+              </div>
+
+              {/* Right Column - Content */}
+              <div className="lg:w-1/2 relative">
+                {/* Circle on the vertical line */}
+                <div className="absolute left-1/2 top-1/4 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center z-10">
+                  <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white"></div>
+                </div>
+
+                {/* Step Content */}
+                <div className="lg:pl-12">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Understand the Need</h3>
+                  
+                  <div className="space-y-0">
+                    <p className="text-gray-700 mb-6">Employers share their role requirements and timelines</p>
+                    <p className="text-gray-700 mb-2">Talents share their career goals and interests</p>
+                    <p className="text-gray-700">We align skills, expectations, accessibility needs, and growth paths</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                        {/* Section 2: Train, Coach & Prepare */}
+            <div className="flex flex-col lg:flex-row items-start gap-12 mb-24">
+              {/* Left Column - Content */}
+              <div className="lg:w-1/2 relative order-2 lg:order-1">
+                {/* Circle on the vertical line */}
+                <div className="absolute right-1/2 top-1/4 transform translate-x-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center z-10 lg:right-auto lg:left-1/2">
+                  <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white"></div>
+                </div>
+
+                {/* Step Content */}
+                <div className="lg:pr-12 lg:text-right">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Train, Coach & Prepare</h3>
+                  
+                  <div className="space-y-4 text-gray-700">
+                    <p>We train talents based on employer needs</p>
+                    <p>We provide role-specific coaching</p>
+                    <p>We help talents build confidence through practice and support</p>
+                    <p>We focus on soft skills and workplace readiness</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Column - Image */}
+              <div className="lg:w-1/2 order-1 lg:order-2">
+                <div className="rounded-2xl overflow-hidden shadow-lg">
+                  <img 
+                    src="/images/ssp5p1.png" 
+                    alt="Enabled Academy training and coaching process"
+                    className="w-full h-auto"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Section 3: Match & Hire */}
+            <div className="flex flex-col lg:flex-row items-start gap-12">
+              {/* Left Column - Image */}
+              <div className="lg:w-1/2">
+                <div className="rounded-2xl overflow-hidden shadow-lg">
+                  <img 
+                    src="/images/ssp5p1.png" 
+                    alt="Enabled Academy matching and hiring process"
+                    className="w-full h-auto"
+                  />
+                </div>
+              </div>
+
+              {/* Right Column - Content */}
+              <div className="lg:w-1/2 relative">
+                {/* Circle on the vertical line */}
+                <div className="absolute left-1/2 top-1/4 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center z-10">
+                  <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white"></div>
+                </div>
+
+                {/* Step Content */}
+                <div className="lg:pl-12">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Match & Hire</h3>
+                  
+                  <div className="space-y-4 text-gray-700">
+                    <p>Employers meet trained, pre-screened candidates</p>
+                    <p>Talents interview with confidence</p>
+                    <p>We support onboarding to ensure a smooth transition</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ========== END HOW ENABLED ACADEMY WORKS SECTION ========== */}
 
       {/* Additional Content Sections (Add below as needed) */}
       <section className="py-20 px-6">
