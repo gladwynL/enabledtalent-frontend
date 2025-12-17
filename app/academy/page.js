@@ -578,151 +578,151 @@ export default function AcademyPage() {
       {/* ========== END WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
 
       {/* ========== HOW ENABLED ACADEMY WORKS SECTION ========== */}
-<section className="py-20 px-6 bg-white">
-  <div className="container mx-auto max-w-6xl">
-    <div className="text-center mb-16">
-      {/* Section Title */}
-      <div className="mb-6">
-        <span className="inline-block px-4 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-semibold border border-gray-200">
-          HOW ENABLED ACADEMY WORKS
-        </span>
-      </div>
+      <section className="py-20 px-6 bg-white">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            {/* Section Title */}
+            <div className="mb-6">
+              <span className="inline-block px-4 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-semibold border border-gray-200">
+                HOW ENABLED ACADEMY WORKS
+              </span>
+            </div>
 
-      {/* Main Heading */}
-      <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-12 leading-tight">
-        A Simple, Clear Process that Supports<br />
-        <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
-          Both Talents and Employers.
-        </span>
-      </h2>
-    </div>
-
-    {/* Combined vertical line container */}
-    <div className="relative mt-24">
-      {/* Logo above the vertical line */}
-      <div className="absolute left-1/2 -top-16 transform -translate-x-1/2 hidden lg:block">
-        <img 
-          src="/images/ssp5p2.png" 
-          alt="Enabled Academy logo"
-          className="w-24 h-24"
-        />
-      </div>
-
-      {/* Main continuous vertical line container - with circles aligned to section titles */}
-      <div className="absolute left-1/2 top-12 bottom-0 w-1 bg-gradient-to-b from-orange-500 via-orange-400 to-yellow-500 transform -translate-x-1/2 hidden lg:block">
-        {/* Circle 1: Aligns with "Understand the Need" */}
-        <div className="absolute left-1/2 top-36 transform -translate-x-1/2 -translate-y-1/2">
-          <div className="relative">
-            <div className="absolute w-3 h-3 bg-white rounded-full -left-1.5 -top-1.5"></div>
-            <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white relative z-10"></div>
-          </div>
+          {/* Main Heading */}
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-12 leading-tight">
+            A Simple, Clear Process that Supports<br />
+            <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
+              Both Talents and Employers.
+            </span>
+          </h2>
         </div>
-        
-        {/* Circle 2: Aligns with "Train, Coach & Prepare" */}
-        <div className="absolute left-1/2 top-[43%] transform -translate-x-1/2 -translate-y-1/2">
-          <div className="relative">
-            <div className="absolute w-3 h-3 bg-white rounded-full -left-1.5 -top-1.5"></div>
-            <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white relative z-10"></div>
-          </div>
-        </div>
-        
-        {/* Circle 3: Aligns with "Match & Hire" */}
-        <div className="absolute left-1/2 top-[76%] transform -translate-x-1/2 -translate-y-1/2">
-          <div className="relative">
-            <div className="absolute w-3 h-3 bg-white rounded-full -left-1.5 -top-1.5"></div>
-            <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white relative z-10"></div>
-          </div>
-        </div>
-      </div>
 
-      {/* Section 1: Understand the Need */}
-      <div className="flex flex-col lg:flex-row items-start gap-12 mb-24 pt-20">
-        {/* Left Column - Image moved left AND HIGHER */}
-        <div className="lg:w-1/2 -ml-8 lg:-ml-14 -mt-8"> {/* Added -mt-8 to move image higher */}
-          <div className="rounded-2xl overflow-hidden shadow-lg">
+        {/* Combined vertical line container */}
+        <div className="relative mt-24">
+          {/* Logo above the vertical line */}
+          <div className="absolute left-1/2 -top-16 transform -translate-x-1/2 hidden lg:block">
             <img 
-              src="/images/ssp5p1.png" 
-              alt="Enabled Academy process visualization"
-              className="w-full h-auto"
+              src="/images/ssp5p2.png" 
+              alt="Enabled Academy logo"
+              className="w-24 h-24"
             />
           </div>
-        </div>
 
-        {/* Right Column - Content shifted slightly left */}
-        <div className="lg:w-1/2 relative">
-          {/* Step Content - aligned with circle 1 */}
-          <div className="lg:pl-8 pt-24">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Understand the Need</h3>
+          {/* Main continuous vertical line container - with circles aligned to section titles */}
+          <div className="absolute left-1/2 top-12 bottom-0 w-1 bg-gradient-to-b from-orange-500 via-orange-400 to-yellow-500 transform -translate-x-1/2 hidden lg:block">
+            {/* Circle 1: Aligns with "Understand the Need" */}
+            <div className="absolute left-1/2 top-36 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="relative">
+                <div className="absolute w-3 h-3 bg-white rounded-full -left-1.5 -top-1.5"></div>
+                <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white relative z-10"></div>
+              </div>
+            </div>
             
-            <div className="space-y-0">
-              <p className="text-gray-700 mb-6">Employers share their role requirements and timelines</p>
-              <p className="text-gray-700 mb-2">Talents share their career goals and interests</p>
-              <p className="text-gray-700">We align skills, expectations, accessibility needs, and growth paths</p>
+            {/* Circle 2: Aligns with "Train, Coach & Prepare" */}
+            <div className="absolute left-1/2 top-[43%] transform -translate-x-1/2 -translate-y-1/2">
+              <div className="relative">
+                <div className="absolute w-3 h-3 bg-white rounded-full -left-1.5 -top-1.5"></div>
+                <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white relative z-10"></div>
+              </div>
+            </div>
+            
+            {/* Circle 3: Aligns with "Match & Hire" */}
+            <div className="absolute left-1/2 top-[76%] transform -translate-x-1/2 -translate-y-1/2">
+              <div className="relative">
+                <div className="absolute w-3 h-3 bg-white rounded-full -left-1.5 -top-1.5"></div>
+                <div className="w-6 h-6 rounded-full border-4 border-orange-500 bg-white relative z-10"></div>
+              </div>
+            </div>
+          </div>
+
+          {/* Section 1: Understand the Need */}
+          <div className="flex flex-col lg:flex-row items-start gap-12 mb-24 pt-20">
+            {/* Left Column - Image moved left AND HIGHER */}
+            <div className="lg:w-1/2 -ml-8 lg:-ml-14 -mt-8"> {/* Added -mt-8 to move image higher */}
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="/images/ssp5p1.png" 
+                  alt="Enabled Academy process visualization"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
+            {/* Right Column - Content shifted slightly left */}
+            <div className="lg:w-1/2 relative">
+              {/* Step Content - aligned with circle 1 */}
+              <div className="lg:pl-8 pt-24">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Understand the Need</h3>
+                
+                <div className="space-y-0">
+                  <p className="text-gray-700 mb-6">Employers share their role requirements and timelines</p>
+                  <p className="text-gray-700 mb-2">Talents share their career goals and interests</p>
+                  <p className="text-gray-700">We align skills, expectations, accessibility needs, and growth paths</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Section 2: Train, Coach & Prepare */}
+          <div className="flex flex-col lg:flex-row items-start gap-12 mb-24">
+            {/* Left Column - Content */}
+            <div className="lg:w-1/2 relative order-2 lg:order-1">
+              {/* Step Content - aligned with circle 2 - MINIMAL RIGHT PADDING */}
+              <div className="lg:pr-4 lg:text-right pt-24">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Train, Coach & Prepare</h3>
+                
+                <div className="space-y-4 text-gray-700">
+                  <p>We train talents based on employer needs</p>
+                  <p>We provide role-specific coaching</p>
+                  <p>We help talents build confidence through practice and support</p>
+                  <p>We focus on soft skills and workplace readiness</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column - Image - SHIFTED RIGHT with lg:ml-12 */}
+            <div className="lg:w-1/2 order-1 lg:order-2 lg:ml-12">
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="/images/ssp5p1.png" 
+                  alt="Enabled Academy training and coaching process"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Section 3: Match & Hire - BOTH SHIFTED LEFT */}
+          <div className="flex flex-col lg:flex-row items-start gap-12">
+            {/* Left Column - Image - SHIFTED LEFT */}
+            <div className="lg:w-1/2 -ml-8 lg:-ml-12">
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src="/images/ssp5p1.png" 
+                  alt="Enabled Academy matching and hiring process"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
+            {/* Right Column - Content - SHIFTED LEFT */}
+            <div className="lg:w-1/2 relative">
+              {/* Step Content - aligned with circle 3 - REDUCED PADDING */}
+              <div className="lg:pl-6 pt-24">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Match & Hire</h3>
+                
+                <div className="space-y-4 text-gray-700">
+                  <p>Employers meet trained, pre-screened candidates</p>
+                  <p>Talents interview with confidence</p>
+                  <p>We support onboarding to ensure a smooth transition</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Section 2: Train, Coach & Prepare */}
-      <div className="flex flex-col lg:flex-row items-start gap-12 mb-24">
-        {/* Left Column - Content */}
-        <div className="lg:w-1/2 relative order-2 lg:order-1">
-          {/* Step Content - aligned with circle 2 - MINIMAL RIGHT PADDING */}
-          <div className="lg:pr-4 lg:text-right pt-24">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Train, Coach & Prepare</h3>
-            
-            <div className="space-y-4 text-gray-700">
-              <p>We train talents based on employer needs</p>
-              <p>We provide role-specific coaching</p>
-              <p>We help talents build confidence through practice and support</p>
-              <p>We focus on soft skills and workplace readiness</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Right Column - Image - SHIFTED RIGHT with lg:ml-12 */}
-        <div className="lg:w-1/2 order-1 lg:order-2 lg:ml-12">
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img 
-              src="/images/ssp5p1.png" 
-              alt="Enabled Academy training and coaching process"
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
-      </div>
-
-      {/* Section 3: Match & Hire - BOTH SHIFTED LEFT */}
-      <div className="flex flex-col lg:flex-row items-start gap-12">
-        {/* Left Column - Image - SHIFTED LEFT */}
-        <div className="lg:w-1/2 -ml-8 lg:-ml-12">
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img 
-              src="/images/ssp5p1.png" 
-              alt="Enabled Academy matching and hiring process"
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
-
-        {/* Right Column - Content - SHIFTED LEFT */}
-        <div className="lg:w-1/2 relative">
-          {/* Step Content - aligned with circle 3 - REDUCED PADDING */}
-          <div className="lg:pl-6 pt-24">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Match & Hire</h3>
-            
-            <div className="space-y-4 text-gray-700">
-              <p>Employers meet trained, pre-screened candidates</p>
-              <p>Talents interview with confidence</p>
-              <p>We support onboarding to ensure a smooth transition</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{/* ========== END OF HOW ENABLED ACADEMY WORKS SECTION ========== */}
+    </section>
+    {/* ========== END OF HOW ENABLED ACADEMY WORKS SECTION ========== */}
 
       {/* Additional Content Sections (Add below as needed) */}
       <section className="py-20 px-6">
