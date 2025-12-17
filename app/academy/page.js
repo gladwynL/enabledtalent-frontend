@@ -720,8 +720,16 @@ export default function AcademyPage() {
             </div>
           </div>
         </div>
-      </div>
-    </section>
+        {/* ===== SIMPLE GRADIENT TEXT AT BOTTOM OF SECTION ===== */}
+        <div className="text-center mt-16 lg:mt-24">
+          <p className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-red-500 to-orange-400 bg-clip-text text-transparent">
+            The Result: Job-ready talent and employers who hire with confidence.
+          </p>
+        </div>
+        {/* ===== END GRADIENT TEXT ===== */}
+    
+        </div>
+      </section>
     {/* ========== END OF HOW ENABLED ACADEMY WORKS SECTION ========== */}
 
       {/* Additional Content Sections (Add below as needed) */}
