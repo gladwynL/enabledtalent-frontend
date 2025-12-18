@@ -50,6 +50,15 @@ export default function AcademyPage() {
               <div className="absolute inset-0 bg-yellow-300 opacity-20 rounded-full"></div>
             </button>
           </div>
+
+           {/* Bottom Right Image inside the content area */}
+            <div className="absolute bottom-0 right-0 lg:w-full w-full max-w-3xl opacity-100">
+              <img 
+                src="/images/ssp1p2.png" 
+                alt="Additional Enabled Academy visual" 
+                className="w-full h-auto object-contain"
+              />
+            </div>
         </div>
       </section>
 
