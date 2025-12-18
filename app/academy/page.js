@@ -742,99 +742,144 @@ export default function AcademyPage() {
     {/* ========== END OF HOW ENABLED ACADEMY WORKS SECTION ========== */}
 
     {/* ========== SUCCESS STORIES SECTION ========== */}
-<section className="pt-40 pb-20 px-6 bg-gray-50">
-  <div className="container mx-auto max-w-6xl">
-    <div className="text-center mb-16">
-      {/* Main Heading - ONLY "SUCCESS" in gradient */}
-      <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-12 leading-tight">
-        <span className="bg-gradient-to-r from-red-500 to-orange-400 bg-clip-text text-transparent">
-          Success
-        </span>
-        <span className="text-gray-900"> Stories</span>
-      </h2>
-    </div>
-
-    {/* Success Story Content */}
-    <div className="flex flex-col lg:flex-row items-stretch gap-12 lg:gap-16">
-      {/* Left Column - Image - LONGER VERTICALLY */}
-      <div className="lg:w-1/2">
-        <div className="rounded-xl overflow-hidden shadow-xl h-full">
-          <img 
-            src="/images/ssp5p1.png" 
-            alt="Success story visual"
-            className="w-full h-full object-cover aspect-[3/2]"
-          />
-        </div>
-      </div>
-
-      {/* Right Column - Testimonial Card - SHORTER */}
-      <div className="lg:w-1/2 mt-12 relative">
-        {/* Quotation Mark Image - TOP RIGHT above card - ADJUSTED POSITION & SIZE */}
-        <div className="absolute -top-16 right-22 z-10">
-          <img 
-            src="/images/ssp6.png" 
-            alt="Quotation mark decoration"
-            className="w-24 h-24 object-contain"
-          />
-        </div>
-
-        {/* Testimonial Card */}
-        <div className="bg-white rounded-xl p-6 shadow-xl h-full flex flex-col max-h-[240px] relative z-0">
-          {/* Name & Position - LARGER */}
-          <div className="mb-3">
-            <h3 className="text-xl font-bold text-gray-900">Leslie Alexander</h3>
-            <p className="text-gray-700 text-sm mt-2">People Operations Specialist at Clan</p>
+      <section className="pt-40 pb-20 px-6 bg-gray-50">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            {/* Main Heading - ONLY "SUCCESS" in gradient */}
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-12 leading-tight">
+              <span className="bg-gradient-to-r from-red-500 to-orange-400 bg-clip-text text-transparent">
+                Success
+              </span>
+              <span className="text-gray-900"> Stories</span>
+            </h2>
           </div>
 
-          {/* Testimonial - VERTICALLY CENTERED, LARGER */}
-          <div className="flex-grow flex items-center mt-2">
-            <p className="text-gray-700 text-lg leading-relaxed">
-              Enabled Academy helped me gain the confidence to return to work.
-            </p>
-          </div>
+          {/* Success Story Content */}
+          <div className="flex flex-col lg:flex-row items-stretch gap-12 lg:gap-16">
+            {/* Left Column - Image - LONGER VERTICALLY */}
+            <div className="lg:w-1/2">
+              <div className="rounded-xl overflow-hidden shadow-xl h-full">
+                <img 
+                  src="/images/ssp5p1.png" 
+                  alt="Success story visual"
+                  className="w-full h-full object-cover aspect-[3/2]"
+                />
+              </div>
+            </div>
 
-          {/* Single Star Rating - LARGER */}
-          <div className="flex items-center gap-1 justify-end mt-2">
-            <svg 
-              className="w-5 h-5 text-yellow-400" 
-              fill="currentColor" 
-              viewBox="0 0 20 20"
-            >
-              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            {/* Right Column - Testimonial Card - SHORTER */}
+            <div className="lg:w-1/2 mt-12 relative">
+              {/* Quotation Mark Image - TOP RIGHT above card - ADJUSTED POSITION & SIZE */}
+              <div className="absolute -top-16 right-22 z-10">
+                <img 
+                  src="/images/ssp6.png" 
+                  alt="Quotation mark decoration"
+                  className="w-24 h-24 object-contain"
+                />
+              </div>
+
+              {/* Testimonial Card */}
+              <div className="bg-white rounded-xl p-6 shadow-xl h-full flex flex-col max-h-[240px] relative z-0">
+                {/* Name & Position - LARGER */}
+                <div className="mb-3">
+                  <h3 className="text-xl font-bold text-gray-900">Leslie Alexander</h3>
+                  <p className="text-gray-700 text-sm mt-2">People Operations Specialist at Clan</p>
+                </div>
+
+                {/* Testimonial - VERTICALLY CENTERED, LARGER */}
+                <div className="flex-grow flex items-center mt-2">
+                  <p className="text-gray-700 text-lg leading-relaxed">
+                    Enabled Academy helped me gain the confidence to return to work.
+                  </p>
+                </div>
+
+                {/* Single Star Rating - LARGER */}
+                <div className="flex items-center gap-1 justify-end mt-2">
+                  <svg 
+                    className="w-5 h-5 text-yellow-400" 
+                    fill="currentColor" 
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                  <span className="text-gray-800 font-semibold text-base">4.5/5.0</span>
+                </div>
+              </div>
+
+              {/* Navigation Row - UPDATED */}
+              <div className="flex items-center gap-4 mt-8">
+                {/* Arrow Buttons */}
+                <div className="flex items-center gap-2">
+                  {/* Left Arrow with tail - White */}
+                  <button className="p-3 rounded-full bg-white shadow-md hover:shadow-lg transition-shadow">
+                    <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                    </svg>
+                  </button>
+                  
+                  {/* Right Arrow with tail - SOLID Dark Navy Blue */}
+                  <button className="p-3 rounded-full bg-blue-900 shadow-md hover:shadow-lg transition-shadow">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </button>
+                </div>
+
+                {/* Read Case Study Button - Gold Gradient */}
+                <button className="bg-gradient-to-r from-yellow-500 via-amber-400 to-yellow-500 text-gray-900 font-semibold py-3 px-8 rounded-full hover:opacity-90 transition-opacity shadow-md text-sm">
+                  Read the Case Study
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ========== END SUCCESS STORIES SECTION ========== */}
+
+      {/* ========== START YOUR JOURNEY SECTION ========== */}
+<section className="py-60 px-6 bg-gradient-to-b from-gray-50 to-white">
+  <div className="container mx-auto max-w-4xl text-center">
+    {/* Main Heading */}
+    <h2 className="text-4xl lg:text-5xl font-bold text-black mb-8 leading-tight">
+      Start Your Journey With <br className="hidden md:block" /><span className="text-black">Enabled Academy</span>
+    </h2>
+
+    {/* Description */}
+    <p className="text-xl text-black mb-12 max-w-2xl mx-auto leading-relaxed">
+      Whether you're looking to grow your skills or build your team, Enabled Academy is here to help.
+    </p>
+
+    {/* Buttons Container */}
+    <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+      {/* Join as a Talent Button - Yellow Gradient: #FFD071 to #EFB745 */}
+      <button className="group w-auto bg-gradient-to-r from-[#FFD071] to-[#EFB745] text-gray-900 font-bold py-3 px-7 rounded-full hover:opacity-90 transition-opacity duration-300 shadow-lg hover:shadow-xl">
+        <span className="flex items-center justify-center gap-2.5">
+          <span>Join as a Talent</span>
+          {/* Arrow in filled circle - NO HOVER MOVEMENT */}
+          <span className="flex items-center justify-center w-11 h-11 rounded-full bg-gradient-to-br from-[#FFD071] to-[#EFB745] group-hover:from-[#FFD071]/90 group-hover:to-[#EFB745]/90 transition-colors shadow-sm">
+            <svg className="w-5.5 h-5.5 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
-            <span className="text-gray-800 font-semibold text-base">4.5/5.0</span>
-          </div>
-        </div>
+          </span>
+        </span>
+      </button>
 
-        {/* Navigation Row - UPDATED */}
-        <div className="flex items-center gap-4 mt-8">
-          {/* Arrow Buttons */}
-          <div className="flex items-center gap-2">
-            {/* Left Arrow with tail - White */}
-            <button className="p-3 rounded-full bg-white shadow-md hover:shadow-lg transition-shadow">
-              <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-              </svg>
-            </button>
-            
-            {/* Right Arrow with tail - SOLID Dark Navy Blue */}
-            <button className="p-3 rounded-full bg-blue-900 shadow-md hover:shadow-lg transition-shadow">
-              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </button>
-          </div>
-
-          {/* Read Case Study Button - Gold Gradient */}
-          <button className="bg-gradient-to-r from-yellow-500 via-amber-400 to-yellow-500 text-gray-900 font-semibold py-3 px-8 rounded-full hover:opacity-90 transition-opacity shadow-md text-sm">
-            Read the Case Study
-          </button>
-        </div>
-      </div>
+      {/* Partner as an Employer Button - Navy Gradient: #2B476D to #182434 */}
+      <button className="group w-auto bg-gradient-to-r from-[#2B476D] to-[#182434] text-white font-bold py-3 px-7 rounded-full hover:opacity-90 transition-opacity duration-300 shadow-lg hover:shadow-xl">
+        <span className="flex items-center justify-center gap-2.5">
+          <span>Partner as an Employer</span>
+          {/* Arrow in blended circle - NO HOVER MOVEMENT */}
+          <span className="flex items-center justify-center w-11 h-11 rounded-full bg-gradient-to-br from-[#2B476D]/50 to-[#182434]/60 group-hover:from-[#2B476D]/60 group-hover:to-[#182434]/70 transition-colors shadow-sm">
+            <svg className="w-5.5 h-5.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </span>
+        </span>
+      </button>
     </div>
   </div>
 </section>
-{/* ========== END SUCCESS STORIES SECTION ========== */}
+{/* ========== END START YOUR JOURNEY SECTION ========== */}
 
       {/* Additional Content Sections (Add below as needed) */}
       <section className="py-20 px-6">
