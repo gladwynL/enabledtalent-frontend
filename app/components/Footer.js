@@ -1,3 +1,5 @@
+"use client";
+
 export default function Footer() {
   return (
     <>
@@ -17,7 +19,10 @@ export default function Footer() {
           {/* Buttons Container */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             {/* Join as a Talent Button - Yellow Gradient: #FFD071 to #EFB745 */}
-            <button className="group w-auto bg-gradient-to-r from-[#FFD071] to-[#EFB745] text-gray-900 font-bold py-3 px-7 rounded-full hover:opacity-90 transition-opacity duration-300 shadow-lg hover:shadow-xl">
+            <button 
+              className="group w-auto bg-gradient-to-r from-[#FFD071] to-[#EFB745] text-gray-900 font-bold py-3 px-7 rounded-full hover:opacity-90 transition-opacity duration-300 shadow-lg hover:shadow-xl"
+              onClick={() => window.location.href = '/apply/talent'} // ADD THIS
+            >
               <span className="flex items-center justify-center gap-2.5">
                 <span>Join as a Talent</span>
                 {/* Arrow in filled circle - NO HOVER MOVEMENT */}
@@ -30,7 +35,10 @@ export default function Footer() {
             </button>
 
             {/* Partner as an Employer Button - Navy Gradient: #2B476D to #182434 */}
-            <button className="group w-auto bg-gradient-to-r from-[#2B476D] to-[#182434] text-white font-bold py-3 px-7 rounded-full hover:opacity-90 transition-opacity duration-300 shadow-lg hover:shadow-xl">
+            <button 
+              className="group w-auto bg-gradient-to-r from-[#2B476D] to-[#182434] text-white font-bold py-3 px-7 rounded-full hover:opacity-90 transition-opacity duration-300 shadow-lg hover:shadow-xl"
+              onClick={() => window.location.href = '/partner/employer'} // ADD THIS
+            >
               <span className="flex items-center justify-center gap-2.5">
                 <span>Partner as an Employer</span>
                 {/* Arrow in blended circle - NO HOVER MOVEMENT */}
