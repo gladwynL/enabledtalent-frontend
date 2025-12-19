@@ -138,11 +138,11 @@ export default function AcademyPage() {
 
               {/* Main Heading */}
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent whitespace-nowrap">
                   What Is Enabled Academy?
-                </span><br />
+                </span>
                 <span className="text-black">
-                  Become Job-Ready.
+                  {" "}Become Job-Ready.
                 </span>
               </h2>
 
@@ -214,11 +214,7 @@ export default function AcademyPage() {
                 </ul>
               </div>
 
-              {/* Button */}
-              <button className="px-8 py-4 bg-[#1a2b44] text-white font-semibold rounded-full hover:bg-blue-900 transition-colors flex items-center justify-center w-full sm:w-auto">
-                Join Enabled Academy
-                <span className="ml-2">→</span>
-              </button>
+              
             </div>
           </div>
         </div>
@@ -473,7 +469,7 @@ export default function AcademyPage() {
       {/* ========== END FOR EMPLOYERS SECTION ========== */}
 
       {/* ========== WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
-      <section className="py-20 px-6 bg-[#f5efe3]">
+      <section className="py-20 px-6 bg-white">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -578,7 +574,7 @@ export default function AcademyPage() {
 
           {/* Orange gradient note */}
           <div className="text-center">
-            <p className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent text-xl font-medium">
+            <p className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent text-lg lg:text-3xl font-medium">
               ... and more — we customize based on your staffing needs.
             </p>
           </div>
@@ -587,7 +583,7 @@ export default function AcademyPage() {
       {/* ========== END WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
 
       {/* ========== HOW ENABLED ACADEMY WORKS SECTION ========== */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-35 px-6 bg-white">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             {/* Section Title */}
