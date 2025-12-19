@@ -6,7 +6,7 @@ export default function AcademyPage() {
   return (
     <div className={styles.pageContainer}>
       {/* Hero Section - Matches Figma design */}
-      <section className={`${styles.heroSection} ${styles.flexSection}`}>
+      <section className={`${styles.heroSection} ${styles.flexSection} ${styles.sectionPadding}`}>
         {/* Left side - Image */}
         <div className={styles.heroLeft}>
           <div className={styles.imageWrapper}>
@@ -73,7 +73,7 @@ export default function AcademyPage() {
       </section>
 
       {/* ========== WHO WE ARE SECTION ========== */}
-      <section className={styles.whoWeAreSection}>
+      <section className={`${styles.whoWeAreSection} ${styles.sectionPadding}`}>
         <div className={styles.container}>
           <div className={styles.sectionLayout}>
             {/* Left Column - Content */}
@@ -123,7 +123,7 @@ export default function AcademyPage() {
       {/* ========== END WHO WE ARE SECTION ========== */}
 
       {/* ========== FOR TALENT SECTION ========== */}
-      <section className={styles.talentSection}>
+      <section className={`${styles.whoWeAreSection} ${styles.sectionPadding}`}>
         <div className={styles.container}>
           <div className={styles.sectionLayout}>
             {/* Left Column - Image */}
@@ -193,7 +193,7 @@ export default function AcademyPage() {
       {/* ========== END FOR TALENT SECTION ========== */}
 
       {/* ========== WHO WE SUPPORT SECTION ========== */}
-      <section className={styles.supportSection}>
+      <section className={`${styles.supportSectionWhite} ${styles.sectionPadding}`}>
         <div className={styles.supportContainer}>
           <div className={styles.supportContent}>
             {/* Tag */}
@@ -259,7 +259,7 @@ export default function AcademyPage() {
       {/* ========== END WHO WE SUPPORT SECTION ========== */}
 
       {/* ========== FOR EMPLOYERS SECTION ========== */}
-      <section className={styles.employersSection}>
+      <section className={`${styles.employersSection} ${styles.sectionPadding}`}>
         <div className={styles.container}>
           <div className={styles.sectionLayout}>
             {/* Left Column - Image with stats */}
@@ -343,7 +343,7 @@ export default function AcademyPage() {
       {/* ========== END FOR EMPLOYERS SECTION ========== */}
 
       {/* ========== WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
-      <section className={styles.rolesSection}>
+      <section className={`${styles.rolesSection} ${styles.sectionPadding}`}>
         <div className={styles.container}>
           <div className={styles.rolesHeader}>
             <h2 className={styles.rolesTitle}>
@@ -421,7 +421,7 @@ export default function AcademyPage() {
       {/* ========== END WE SUPPORT ALL TYPES OF ROLES SECTION ========== */}
 
       {/* ========== HOW ENABLED ACADEMY WORKS SECTION ========== */}
-      <section className={styles.howItWorksSection}>
+      <section className={`${styles.howItWorksSection} ${styles.sectionPadding}`}>
         <div className={styles.container}>
           <div className={styles.howItWorksHeader}>
             {/* Section Title */}
@@ -575,7 +575,7 @@ export default function AcademyPage() {
       {/* ========== END OF HOW ENABLED ACADEMY WORKS SECTION ========== */}
 
       {/* ========== SUCCESS STORIES SECTION ========== */}
-      <section className={styles.successSection}>
+      <section className={`${styles.successSection} ${styles.sectionPadding}`}>
         <div className={styles.container}>
           <div className={styles.successHeader}>
             <h2 className={styles.successTitle}>
