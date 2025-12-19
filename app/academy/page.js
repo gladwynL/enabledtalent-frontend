@@ -836,88 +836,8 @@ export default function AcademyPage() {
       </section>
       {/* ========== END SUCCESS STORIES SECTION ========== */}
 
-      {/* ========== START YOUR JOURNEY SECTION ========== */}
-<section className="py-60 px-6 bg-gradient-to-b from-gray-50 to-white">
-  <div className="container mx-auto max-w-4xl text-center">
-    {/* Main Heading */}
-    <h2 className="text-4xl lg:text-5xl font-bold text-black mb-8 leading-tight">
-      Start Your Journey With <br className="hidden md:block" /><span className="text-black">Enabled Academy</span>
-    </h2>
 
-    {/* Description */}
-    <p className="text-xl text-black mb-12 max-w-2xl mx-auto leading-relaxed">
-      Whether you're looking to grow your skills or build your team, Enabled Academy is here to help.
-    </p>
-
-    {/* Buttons Container */}
-    <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-      {/* Join as a Talent Button - Yellow Gradient: #FFD071 to #EFB745 */}
-      <button className="group w-auto bg-gradient-to-r from-[#FFD071] to-[#EFB745] text-gray-900 font-bold py-3 px-7 rounded-full hover:opacity-90 transition-opacity duration-300 shadow-lg hover:shadow-xl">
-        <span className="flex items-center justify-center gap-2.5">
-          <span>Join as a Talent</span>
-          {/* Arrow in filled circle - NO HOVER MOVEMENT */}
-          <span className="flex items-center justify-center w-11 h-11 rounded-full bg-gradient-to-br from-[#FFD071] to-[#EFB745] group-hover:from-[#FFD071]/90 group-hover:to-[#EFB745]/90 transition-colors shadow-sm">
-            <svg className="w-5.5 h-5.5 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-            </svg>
-          </span>
-        </span>
-      </button>
-
-      {/* Partner as an Employer Button - Navy Gradient: #2B476D to #182434 */}
-      <button className="group w-auto bg-gradient-to-r from-[#2B476D] to-[#182434] text-white font-bold py-3 px-7 rounded-full hover:opacity-90 transition-opacity duration-300 shadow-lg hover:shadow-xl">
-        <span className="flex items-center justify-center gap-2.5">
-          <span>Partner as an Employer</span>
-          {/* Arrow in blended circle - NO HOVER MOVEMENT */}
-          <span className="flex items-center justify-center w-11 h-11 rounded-full bg-gradient-to-br from-[#2B476D]/50 to-[#182434]/60 group-hover:from-[#2B476D]/60 group-hover:to-[#182434]/70 transition-colors shadow-sm">
-            <svg className="w-5.5 h-5.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-            </svg>
-          </span>
-        </span>
-      </button>
-    </div>
-  </div>
-</section>
-{/* ========== END START YOUR JOURNEY SECTION ========== */}
-
-      {/* Additional Content Sections (Add below as needed) */}
-      <section className="py-20 px-6">
-        <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            How Enabled Academy Works
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Step 1 */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="text-3xl font-bold text-blue-600 mb-4">01</div>
-              <h3 className="text-xl font-bold mb-3">Skill Assessment</h3>
-              <p className="text-gray-600">
-                We evaluate your current skills and career goals to create a personalized learning path.
-              </p>
-            </div>
-
-            {/* Step 2 */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="text-3xl font-bold text-blue-600 mb-4">02</div>
-              <h3 className="text-xl font-bold mb-3">Hands-On Training</h3>
-              <p className="text-gray-600">
-                Learn through real-world projects, mentorship, and industry-relevant curriculum.
-              </p>
-            </div>
-
-            {/* Step 3 */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="text-3xl font-bold text-blue-600 mb-4">03</div>
-              <h3 className="text-xl font-bold mb-3">Job Placement</h3>
-              <p className="text-gray-600">
-                Connect with employer partners and start your career with confidence.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
     </div>
   );
 }
