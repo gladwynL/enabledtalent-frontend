@@ -262,7 +262,7 @@ export default function AcademyPage() {
       {/* ========== END WHO WE SUPPORT SECTION ========== */}
 
       {/* ========== FOR EMPLOYERS SECTION ========== */}
-      <section className={`${styles.employersSection} ${styles.sectionPadding}`}>
+      <section className={`${styles.supportSectionWhite} ${styles.sectionPadding}`}>
         <div className={styles.container}>
           <div className={styles.sectionLayout}>
             {/* Left Column - Image with stats */}

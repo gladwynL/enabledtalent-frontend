@@ -373,13 +373,12 @@
 /* ===== SUPPORT SECTION ===== */
 .supportSectionWhite {
     padding: 5rem 1.5rem;
-    background-color: white !important; /* Force white */
+    background-color: white !important;
 }
 
-/* If you also have .supportSection, make sure it's different */
 .supportSection {
     padding: 5rem 1.5rem;
-    background-color: #f9fafb; /* Or whatever it was */
+    background-color: white;
 }
 
 .supportContainer {
