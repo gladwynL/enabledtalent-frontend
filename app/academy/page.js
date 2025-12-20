@@ -202,7 +202,10 @@ export default function AcademyPage() {
       {/* ========== END FOR TALENT SECTION ========== */}
 
       {/* ========== WHO WE SUPPORT SECTION ========== */}
-      <section className={`${styles.supportSectionWhite} ${styles.sectionPadding}`}>
+      <section 
+        className={`${styles.supportSectionWhite} ${styles.sectionPadding}`}
+        style={{ backgroundColor: 'white' }}
+      >
         <div className={styles.supportContainer}>
           <div className={styles.supportContent}>
             {/* Tag */}
