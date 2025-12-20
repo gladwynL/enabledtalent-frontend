@@ -373,7 +373,7 @@
 /* ===== SUPPORT SECTION ===== */
 .supportSectionWhite {
     padding: 5rem 1.5rem;
-    background-color: white !important;
+    background-color: white;
 }
 
 .supportContainer {
