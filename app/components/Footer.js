@@ -1,5 +1,7 @@
 "use client";
 
+import Button from '../../components/Button';
+
 export default function Footer() {
   return (
     <>
@@ -18,37 +20,23 @@ export default function Footer() {
 
           {/* Buttons Container */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-            {/* Join as a Talent Button - Yellow Gradient: #FFD071 to #EFB745 */}
-            <button 
-              className="group w-auto bg-gradient-to-r from-[#FFD071] to-[#EFB745] text-gray-900 font-bold py-3 px-7 rounded-full hover:opacity-90 transition-opacity duration-300 shadow-lg hover:shadow-xl"
-              onClick={() => window.location.href = '/apply/talent'} // ADD THIS
+            <Button 
+              variant="footer-yellow"
+              onClick={() => window.location.href = '/apply/talent'}
+              withCircleArrow
+              className="py-3 px-7"
             >
-              <span className="flex items-center justify-center gap-2.5">
-                <span>Join as a Talent</span>
-                {/* Arrow in filled circle - NO HOVER MOVEMENT */}
-                <span className="flex items-center justify-center w-11 h-11 rounded-full bg-gradient-to-br from-[#FFD071] to-[#EFB745] group-hover:from-[#FFD071]/90 group-hover:to-[#EFB745]/90 transition-colors shadow-sm">
-                  <svg className="w-5.5 h-5.5 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </span>
-              </span>
-            </button>
-
-            {/* Partner as an Employer Button - Navy Gradient: #2B476D to #182434 */}
-            <button 
-              className="group w-auto bg-gradient-to-r from-[#2B476D] to-[#182434] text-white font-bold py-3 px-7 rounded-full hover:opacity-90 transition-opacity duration-300 shadow-lg hover:shadow-xl"
-              onClick={() => window.location.href = '/partner/employer'} // ADD THIS
+              Join as a Talent
+            </Button>
+            
+            <Button 
+              variant="footer-navy"
+              onClick={() => window.location.href = '/partner/employer'}
+              withCircleArrow
+              className="py-3 px-7"
             >
-              <span className="flex items-center justify-center gap-2.5">
-                <span>Partner as an Employer</span>
-                {/* Arrow in blended circle - NO HOVER MOVEMENT */}
-                <span className="flex items-center justify-center w-11 h-11 rounded-full bg-gradient-to-br from-[#2B476D]/50 to-[#182434]/60 group-hover:from-[#2B476D]/60 group-hover:to-[#182434]/70 transition-colors shadow-sm">
-                  <svg className="w-5.5 h-5.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </span>
-              </span>
-            </button>
+              Partner as an Employer
+            </Button>
           </div>
         </div>
       </section>

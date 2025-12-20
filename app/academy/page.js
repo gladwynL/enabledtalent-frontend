@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Button from '../../components/Button';
 import styles from './academy.module.css';
 
 export default function AcademyPage() {
@@ -47,22 +48,20 @@ export default function AcademyPage() {
 
           {/* Buttons */}
           <div className={styles.buttonGroup}>
-            <button 
-              className={styles.talentButton}
-              onClick={() => window.location.href = '/apply/talent'} // Added
+            <Button 
+              variant="primary"
+              onClick={() => window.location.href = '/apply/talent'}
+              withArrow
             >
               For Talents
-              <span className={styles.buttonArrow}>→</span>
-            </button>
-            <button 
-              className={styles.employerButton}
-              onClick={() => window.location.href = '/apply/employer'} // Added
+            </Button>
+            <Button 
+              variant="yellow-border"
+              onClick={() => window.location.href = '/apply/employer'}
+              withArrow
             >
               For Employers
-              <span className={styles.buttonArrow}>→</span>
-              {/* Extra yellow tint */}
-              <div className={styles.buttonOverlay}></div>
-            </button>
+            </Button>
           </div>
 
           {/* Bottom Right Image inside the content area */}
@@ -223,22 +222,16 @@ export default function AcademyPage() {
             <p className={styles.supportDescription}>
               Anyone looking to improve skills, start a career, restart a career, or grow into new opportunities — including students, newcomers, career-changers, and people facing barriers.
             </p>
-
-            {/* Button */}
-            <a 
-              href="/join" 
-              className={styles.joinButton}
-              onClick={(e) => {
-                e.preventDefault();
-                // Add any tracking or confirmation logic here
-                window.location.href = '/join';
-              }}
+            
+            {/* Join Enabled Academy Button */}
+            <Button
+              variant="accent"
+              href="/join"
+              withArrow
+              className="mx-auto mb-12"
             >
               Join Enabled Academy
-              <span className={styles.joinButtonIcon}>
-                <span className={styles.joinArrow}>→</span>
-              </span>
-            </a>
+            </Button>
 
             {/* Stats Grid */}
             <div className={styles.statsGrid}>
@@ -314,17 +307,15 @@ export default function AcademyPage() {
               </div>
 
               {/* Book a Call Now Button */}
-              <button 
-                className={styles.bookCallButton}
-                onClick={() => {
-                  // Open calendar booking or phone
-                  window.open('https://calendly.com/enabledacademy/consultation', '_blank');
-                  // OR for phone: window.open('tel:+1234567890');
-                }}
+              <Button
+                variant="primary"
+                onClick={() => window.open('https://calendly.com/enabledacademy/consultation', '_blank')}
+                withArrow
+                className="mb-10 w-full sm:w-auto"
               >
                 Book a Call Now
-                <span className={styles.buttonArrow}>→</span>
-              </button>
+              </Button>
+
               {/* How We Support Employers */}
               <div className={styles.supportListContainer}>
                 <h3 className={styles.supportListTitle}>How We Support Employers</h3>
@@ -666,42 +657,35 @@ export default function AcademyPage() {
               <div className={styles.testimonialNav}>
                 {/* Arrow Buttons */}
                 <div className={styles.navButtons}>
-                  {/* Left Arrow */}
-                  <button 
-                    className={styles.navButton}
-                    onClick={() => {
-                      // Add logic to show previous testimonial
-                      console.log('Previous testimonial');
-                      // You'll need state management for this
-                    }}
+                  <Button
+                    variant="secondary"
+                    onClick={() => console.log('Previous testimonial')}
+                    className="p-3 rounded-full bg-white shadow-md hover:shadow-lg"
                   >
-                    <svg className={styles.navArrow} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                     </svg>
-                  </button>
+                  </Button>
                   
-                  {/* Right Arrow */}
-                  <button 
-                    className={`${styles.navButton} ${styles.navButtonDark}`}
-                    onClick={() => {
-                      // Add logic to show next testimonial
-                      console.log('Next testimonial');
-                      // You'll need state management for this
-                    }}
+                  <Button
+                    variant="navy"
+                    onClick={() => console.log('Next testimonial')}
+                    className="p-3 rounded-full shadow-md hover:shadow-lg"
                   >
-                    <svg className={styles.navArrowWhite} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>
-                  </button>
+                  </Button>
                 </div>
 
                 {/* Read Case Study Button */}
-                <button 
-                  className={styles.caseStudyButton}
-                  onClick={() => window.location.href = '/case-studies/leslie-alexander'} // Added
+                <Button
+                  variant="accent"
+                  onClick={() => window.location.href = '/case-studies/leslie-alexander'}
+                  className="text-sm shadow-md"
                 >
                   Read the Case Study
-                </button>
+                </Button>
               </div>
 
 
