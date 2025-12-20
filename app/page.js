@@ -1,6 +1,7 @@
 // app/page.js
 import { redirect } from 'next/navigation';
 
-export default function Home() {
+export default function HomePage() {
   redirect('/academy');
+  return null;
 }
