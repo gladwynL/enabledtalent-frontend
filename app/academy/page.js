@@ -228,7 +228,7 @@ export default function AcademyPage() {
               variant="accent"
               href="/join"
               withArrow
-              className="mx-auto mb-12"
+              className="mx-auto mb-12 px-6 py-3 text-base" // ← px-6 is narrower
             >
               Join Enabled Academy
             </Button>
@@ -682,7 +682,7 @@ export default function AcademyPage() {
                 <Button
                   variant="accent"
                   onClick={() => window.location.href = '/case-studies/leslie-alexander'}
-                  className="text-sm shadow-md"
+                  className="px-6 py-3 shadow-md text-base min-w-[180px]"
                 >
                   Read the Case Study
                 </Button>

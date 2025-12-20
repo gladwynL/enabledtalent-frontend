@@ -371,9 +371,15 @@
 }
 
 /* ===== SUPPORT SECTION ===== */
+.supportSectionWhite {
+    padding: 5rem 1.5rem;
+    background-color: white !important; /* Force white */
+}
+
+/* If you also have .supportSection, make sure it's different */
 .supportSection {
     padding: 5rem 1.5rem;
-    background-color: white;
+    background-color: #f9fafb; /* Or whatever it was */
 }
 
 .supportContainer {
