@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import styles from './academy.module.css';
 
 export default function AcademyPage() {
@@ -10,10 +11,13 @@ export default function AcademyPage() {
         {/* Left side - Image */}
         <div className={styles.heroLeft}>
           <div className={styles.imageWrapper}>
-            <img 
-              src="/images/ssp1.png" 
-              alt="Enabled Academy students learning and collaborating" 
+            <Image
+              src="/images/ssp1.png"
+              alt="Enabled Academy students learning and collaborating"
+              width={1280}
+              height={1041}
               className={styles.heroImage}
+              priority={true} // Important for above-the-fold image
             />
           </div>
         </div>
@@ -63,9 +67,11 @@ export default function AcademyPage() {
 
           {/* Bottom Right Image inside the content area */}
           <div className={styles.bottomImage}>
-            <img 
-              src="/images/ssp1p2.png" 
-              alt="Additional Enabled Academy visual" 
+            <Image
+              src="/images/ssp1p2.png"
+              alt="Additional Enabled Academy visual"
+              width={596}
+              height={91}
               className={styles.bottomImageContent}
             />
           </div>
@@ -110,9 +116,11 @@ export default function AcademyPage() {
             {/* Right Column - Image container */}
             <div className={styles.sectionImageContainer}>
               <div className={styles.sectionImageWrapper}>
-                <img 
-                  src="/images/ssp2.png" 
+                <Image
+                  src="/images/ssp2.png"
                   alt="Progress visualization showing 75% projects completed and Kevin Ross: 60th accounts in Thailand"
+                  width={742}
+                  height={530}
                   className={styles.sectionImage}
                 />
               </div>
@@ -129,9 +137,11 @@ export default function AcademyPage() {
             {/* Left Column - Image */}
             <div className={styles.sectionImageContainer}>
               <div className={styles.sectionImageWrapper}>
-                <img 
-                  src="/images/ssp3.png" 
+                <Image
+                  src="/images/ssp3.png"
                   alt="Woman participating in Enabled Academy program"
+                  width={567}
+                  height={587}
                   className={styles.sectionImage}
                 />
               </div>
@@ -265,9 +275,11 @@ export default function AcademyPage() {
             {/* Left Column - Image with stats */}
             <div className={styles.sectionImageContainer}>
               <div className={styles.employerImageWrapper}>
-                <img 
-                  src="/images/ssp4.png" 
+                <Image
+                  src="/images/ssp4.png"
                   alt="Employer and employee discussing opportunities"
+                  width={500}
+                  height={479}
                   className={styles.sectionImage}
                 />
               </div>
@@ -444,9 +456,11 @@ export default function AcademyPage() {
           <div className={styles.processContainerRef}>
             {/* Logo above the vertical line */}
             <div className={styles.processLogoRef}>
-              <img 
-                src="/images/ssp5p2.png" 
+              <Image
+                src="/images/ssp5p2.png"
                 alt="Enabled Academy logo"
+                width={65}
+                height={69}
                 className={styles.logoImageRef}
               />
             </div>
@@ -483,9 +497,11 @@ export default function AcademyPage() {
               {/* Left Column - Image moved left AND HIGHER */}
               <div className={styles.stepImageLeftRef}>
                 <div className={styles.stepImageWrapper}>
-                  <img 
-                    src="/images/ssp5p1.png" 
+                  <Image
+                    src="/images/ssp5p1.png"
                     alt="Enabled Academy process visualization"
+                    width={904}
+                    height={904}
                     className={styles.stepImage}
                   />
                 </div>
@@ -526,9 +542,11 @@ export default function AcademyPage() {
               {/* Right Column - Image - SHIFTED RIGHT */}
               <div className={styles.stepImageRightRef}>
                 <div className={styles.stepImageWrapper}>
-                  <img 
-                    src="/images/ssp5p1.png" 
-                    alt="Enabled Academy training and coaching process"
+                  <Image
+                    src="/images/ssp5p1.png"
+                    alt="Enabled Academy process visualization"
+                    width={904}
+                    height={904}
                     className={styles.stepImage}
                   />
                 </div>
@@ -540,9 +558,11 @@ export default function AcademyPage() {
               {/* Left Column - Image - SHIFTED LEFT */}
               <div className={styles.stepImageLeftShifted}>
                 <div className={styles.stepImageWrapper}>
-                  <img 
-                    src="/images/ssp5p1.png" 
-                    alt="Enabled Academy matching and hiring process"
+                  <Image
+                    src="/images/ssp5p1.png"
+                    alt="Enabled Academy process visualization"
+                    width={904}
+                    height={904}
                     className={styles.stepImage}
                   />
                 </div>
@@ -591,9 +611,11 @@ export default function AcademyPage() {
             {/* Left Column - Image */}
             <div className={styles.successImageContainer}>
               <div className={styles.successImageWrapper}>
-                <img 
-                  src="/images/ssp5p1.png" 
+                <Image
+                  src="/images/ssp5p1.png"
                   alt="Success story visual"
+                  width={904}     // Adjust based on actual image size
+                  height={904}    // Adjust based on actual image size
                   className={styles.successImage}
                 />
               </div>
@@ -603,9 +625,11 @@ export default function AcademyPage() {
             <div className={styles.testimonialContainer}>
               {/* Quotation Mark Image */}
               <div className={styles.quoteImage}>
-                <img 
-                  src="/images/ssp6.png" 
+                <Image
+                  src="/images/ssp6.png"
                   alt="Quotation mark decoration"
+                  width={90}
+                  height={64}
                   className={styles.quoteIcon}
                 />
               </div>
