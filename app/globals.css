@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -10,6 +10,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-brand-dark: #1a2b44;
+  --color-brand-light: #f5efe3;
+  --gradient-orange: linear-gradient(to right, #f97316, #f59e0b);
+  --gradient-red-orange: linear-gradient(to right, #ef4444, #f97316);
 }
 
 @media (prefers-color-scheme: dark) {
